@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Aplicaciones_Moviles.Views.HomeView"
+             BackgroundColor="#800080"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ScrollView>
+       
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20">
+            <Image Source="images.jpg" WidthRequest="80" HeightRequest="80" HorizontalOptions="Center"/>
+            <Image Source="canva_des.jpg" WidthRequest="280" HeightRequest="140" Margin="0,20,0,0" HorizontalOptions="Center"/>
+            <Label Text="Diseña y edita de forma profesional con Canva. Mejora imágenes, convierte archivos PDF, agrega textos a videos y más. Tenemos una gran variedad de funciones ingeniosas que llevarán tu contenido a otro nivel, con solo unos clics."
+                   TextColor="White" FontSize="Small" HorizontalTextAlignment="Center" Margin="20"/>
+            <Button Text="Salir" BackgroundColor="#D8BFD8" TextColor="Black" Clicked="OnExitButtonClicked" Margin="0,10,0,0"/>
+            <Button Text="Acerca de" BackgroundColor="#D8BFD8" TextColor="Black" Clicked="OnAboutButtonClicked" Margin="0,10,0,0"/>
+            <Label Text="Inicio de sesión exitoso" TextColor="White" BackgroundColor="Green" HorizontalOptions="Center" VerticalOptions="End" Margin="0,20,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
